@@ -1,13 +1,12 @@
 package com.company;
 import java.util.Random;
-public class SnakeAndLadder {
-
+public class SnakeAndLadder{
 
         public static final int No_Play = 0;
         public static final int Ladder = 1;
         public static final int Snake = 2;
 
-    public static void main(String[] args) {
+        public static void main(String[] args) {
 
             int playerposition = 0;
             System.out.println("The start position of player is : " + playerposition);
@@ -37,6 +36,7 @@ public class SnakeAndLadder {
             System.out.println("Player at position " + playerposition + " and also winner");
 
         }
-
     }
+
+
 
